@@ -1,0 +1,47 @@
+@import url("../assets/jquery-file-upload/css/jquery.fileupload.css");
+/*
+ * Ajax Multiple Image Uploader
+ * https://github.com/tharindulucky/ajax-multi-image-uploader
+ *
+ * Copyright 2018, Tharindu Lakshitha
+ * https://coderaweso.me
+ *
+ * Licensed under the MIT license:
+ * https://opensource.org/licenses/MIT
+ */
+
+.uploaded_image, .uploaded_image > img{
+    width: 95px;
+    height: 95px;
+}
+
+.uploaded_image{
+    float: left;
+    position: relative;
+    margin-left: 14px;
+}
+
+.uploaded_image > img{
+    position: absolute;
+    z-index: 0;
+    border-radius: 20px;
+}
+
+.img_rmv{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    padding: 27px;
+    width: 95px;
+    height: 95px;
+}
+
+.uploaded_image > img:hover + .img_rmv{
+    visibility: visible;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.img_rmv:hover{
+    visibility: visible;
+    background-color: rgba(255, 255, 255, 0.5);
+}
