@@ -1,13 +1,3 @@
-<!--
- * Ajax Multiple Image Uploader
- * https://github.com/tharindulucky/ajax-multi-image-uploader
- *
- * Copyright 2018, Tharindu Lakshitha
- * https://coderaweso.me
- *
- * Licensed under the MIT license:
- * https://opensource.org/licenses/MIT
--->
 <!doctype html>
 
 <html lang="en">
