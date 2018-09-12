@@ -15,7 +15,7 @@ $( document ).ready(function() {
         });
     }
 
-    require("../dist/assets/jquery-file-upload/js/vendor/jquery.ui.widget");
+    require("../dist/assets/jquery-file-upload/js/vendor/jquery.ui.widget.js");
     require("../dist/assets/jquery-file-upload/js/jquery.iframe-transport.js");
     require("../dist/assets/jquery-file-upload/js/jquery.fileupload.js");
 });
