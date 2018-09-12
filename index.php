@@ -16,7 +16,10 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="dist/js/app.js"></script>
+    
+    <script src="dist/assets/jquery-file-upload/js/vendor/jquery.ui.widget.js"></script>
+    <script src="dist/assets/jquery-file-upload/js/jquery.iframe-transport.js"></script>
+    <script src="dist/assets/jquery-file-upload/js/jquery.fileupload.js"></script>
 </head>
 
 <body>
