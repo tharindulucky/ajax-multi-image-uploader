@@ -15,8 +15,8 @@ $( document ).ready(function() {
         });
     }
 
-    require("../ajax-multi-image-uploader/dist/assets/jquery-file-upload/js/vendor/jquery.ui.widget");
-    require("../ajax-multi-image-uploader/dist/assets/jquery-file-upload/js/jquery.iframe-transport.js");
-    require("../ajax-multi-image-uploader/dist/assets/jquery-file-upload/js/jquery.fileupload.js");
+    require("../assets/jquery-file-upload/js/vendor/jquery.ui.widget");
+    require("../assets/jquery-file-upload/js/jquery.iframe-transport.js");
+    require("../assets/jquery-file-upload/js/jquery.fileupload.js");
 });
 
