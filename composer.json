@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "compile": [
+      "chmod -R 777 server/uploads/"
+    ]
+  }
+}
