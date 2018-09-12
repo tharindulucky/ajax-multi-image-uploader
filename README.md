@@ -5,6 +5,8 @@ This image uploader is an improvement of <a href="https://github.com/blueimp/jQu
 
 And the other improvement is this uploader is focusing on image upload. It does not support other files. But you can customize the server side code to add the support to other files as well. That's totally upto you!
 
+<h2>Demo</h2>
+
 <h2>Installation</h2>
 
 <ol>
