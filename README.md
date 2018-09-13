@@ -17,3 +17,7 @@ Checkout a <a href="https://ajax-multi-image-uploader.herokuapp.com/">Working De
     <li>Run it in the browser.</li>
     <li>Enjoy! Don't forget to contribute!</li>
 </ol>
+
+<h4>Note:</h4>
+
+Clone master branch for your developments. 
