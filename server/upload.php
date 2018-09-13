@@ -49,7 +49,7 @@ if (!empty($_FILES)) {
 //        }else{
 //            echo 'FAILED';
 //        }
-    }else{
-        echo 'FAILED';
-    }
+//    }else{
+//        echo 'FAILED';
+//    }
 }
