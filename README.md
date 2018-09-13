@@ -5,6 +5,10 @@ This image uploader is an improvement of <a href="https://github.com/blueimp/jQu
 
 And the other improvement is this uploader is focusing on image upload. It does not support other files. But you can customize the server side code to add the support to other files as well. That's totally upto you!
 
+<h2>How it looks</h2>
+
+<img src="https://user-images.githubusercontent.com/15250118/45502231-15e8dc00-b7a1-11e8-938f-b240fc301025.png">
+
 <h2>Demo</h2>
 
 Checkout a <a target="_blank" href="https://ajax-multi-image-uploader.herokuapp.com/">Working Demo</a> of this plugin and make sure if it's what you want.
