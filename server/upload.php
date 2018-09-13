@@ -32,10 +32,10 @@ if (!empty($_FILES)) {
 
     echo 'error';
 
-//    if(filesize($tempFile) > 5000000){
-//        echo 'FAILED';
-//        die();
-//    }
+    if(filesize($tempFile) > 5000000){
+        echo 'FAILED';
+        die();
+    }
 //
 //    if($ext == 'jpg' || $ext == 'png' || $ext == 'JPG' || $ext == 'PNG'){
 //        $new_file_name = time().'.'.$ext;
