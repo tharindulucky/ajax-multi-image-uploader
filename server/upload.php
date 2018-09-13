@@ -42,7 +42,7 @@ if (!empty($_FILES)) {
 
 
 
-        if ($img = @imagecreatefromstring(file_get_contents($tempFile))) {
+        if ($img = imagecreatefromstring(file_get_contents($tempFile))) {
 
             echo 'error';
 
