@@ -20,13 +20,31 @@
     <script src="dist/assets/jquery-file-upload/js/vendor/jquery.ui.widget.js"></script>
     <script src="dist/assets/jquery-file-upload/js/jquery.iframe-transport.js"></script>
     <script src="dist/assets/jquery-file-upload/js/jquery.fileupload.js"></script>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 
 <body>
 
 <div class="container">
 
-    <h2>Ajax Multiple Image Uploader</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Ajax Multiple Image Uploader</h2>
+        </div>
+
+        <div class="col-md-6">
+            <h2>
+                <a class="github-button" href="https://github.com/tharindulucky/ajax-multi-image-uploader/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download ntkme/github-buttons on GitHub">Download</a>
+                <a class="github-button" href="https://github.com/tharindulucky/ajax-multi-image-uploader/fork" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
+                <!-- Place this tag where you want the button to render. -->
+                <a class="github-button" href="https://github.com/tharindulucky/ajax-multi-image-uploader" data-icon="octicon-star" data-size="large" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+                <!-- Place this tag where you want the button to render. -->
+                <a class="github-button" href="https://github.com/tharindulucky/ajax-multi-image-uploader/subscription" data-icon="octicon-eye" data-size="large" data-show-count="true" aria-label="Watch ntkme/github-buttons on GitHub">Watch</a>
+                <a class="github-button" href="https://github.com/tharindulucky" data-size="large" aria-label="Follow @tharindulucky on GitHub">Follow @tharindulucky</a>
+            </h2>
+        </div>
+    </div>
 
     <hr>
 
@@ -80,6 +98,35 @@
             </div>
         </div>
     </div>
+
+    <br>
+
+    <div class="col-xs-12" style="height:50px;"></div>
+    <div class="col-xs-12" style="height:50px;"></div>
+    <br>
+    <hr style="width: 100%; color: darkgray; height: 0.4px; background-color:darkgray;" />
+
+    <div class="row">
+        <div class="col-md-12">
+
+            <p class="text-center">
+                Written by Tharindu Lakshitha @tharindulucky - <a href="http://coderaweso.me">coderaweso.me</a>
+                <br>
+            </p>
+
+            <h3 class="text-center">
+                <a class="btn-link" href="https://github.com/tharindulucky"><i class="fab fa-github-alt"></i></a>
+                &nbsp;
+                <a class="btn-link" href="https://stackoverflow.com/users/3844510/tharindulucky"><i class="fab fa-stack-overflow"></i></a>
+                &nbsp;
+                <a class="btn-link" href="https://twitter.com/TharinduLucky"><i class="fab fa-twitter"></i></a>
+                &nbsp;
+                <a class="btn-link" href="https://www.linkedin.com/in/tharindulakshitha/"><i class="fab fa-linkedin-in"></i></a>
+
+            </h3>
+        </div>
+    </div>
+
 </div>
 
 <script>
@@ -143,7 +190,6 @@
         }
     });
 </script>
-
 
 
 
