@@ -42,18 +42,20 @@ if (!empty($_FILES)) {
         $targetPath = 'uploads/';  //4
         $targetFile =  $targetPath. $new_file_name;  //5
 
+        $img = imagecreatefromstring(file_get_contents($tempFile));
 
+        echo 'error';
 
-        if ($img = imagecreatefromstring(file_get_contents($tempFile))) {
-
-            echo 'error';
-
-            //$upload_result = move_uploaded_file($tempFile,$targetFile); //6
-//            $server_res = \Cloudinary\Uploader::upload($tempFile, array("crop"=>"limit", "tags"=>"samples", "width"=>100, "height"=>100));
-//            echo $server_res['url'];
-        }else{
-            echo 'FAILED';
-        }
+//        if ($img = imagecreatefromstring(file_get_contents($tempFile))) {
+//
+//            echo 'error';
+//
+//            //$upload_result = move_uploaded_file($tempFile,$targetFile); //6
+////            $server_res = \Cloudinary\Uploader::upload($tempFile, array("crop"=>"limit", "tags"=>"samples", "width"=>100, "height"=>100));
+////            echo $server_res['url'];
+//        }else{
+//            echo 'FAILED';
+//        }
     }else{
         echo 'FAILED';
     }
