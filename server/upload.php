@@ -41,7 +41,7 @@ if (!empty($_FILES)) {
         $new_file_name = time().'.'.$ext;
         $targetPath = 'uploads/';  //4
         $targetFile =  $targetPath. $new_file_name;  //5
-        
+
         //$upload_result = move_uploaded_file($tempFile,$targetFile); //6
         $server_res = \Cloudinary\Uploader::upload($tempFile, array("crop"=>"limit", "tags"=>"samples", "width"=>100, "height"=>100));
         echo $server_res['url'];
