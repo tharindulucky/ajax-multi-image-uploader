@@ -23,12 +23,12 @@ require 'autoload.php';
 
 
 
-//$ds = DIRECTORY_SEPARATOR;  //1
-//$storeFolder = 'uploads';   //2
+$ds = DIRECTORY_SEPARATOR;  //1
+$storeFolder = 'uploads';   //2
 if (!empty($_FILES)) {
-    //$tempFile = $_FILES['files']['tmp_name'];
-    //$file_name = $_FILES['files']['name'];
-    //$ext = pathinfo($file_name, PATHINFO_EXTENSION);
+    $tempFile = $_FILES['files']['tmp_name'];
+    $file_name = $_FILES['files']['name'];
+    $ext = pathinfo($file_name, PATHINFO_EXTENSION);
 
     echo 'error';
 
