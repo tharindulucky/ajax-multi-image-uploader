@@ -17,6 +17,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <!-- These are the necessary files for the image uploader -->
     <script src="dist/assets/jquery-file-upload/js/vendor/jquery.ui.widget.js"></script>
     <script src="dist/assets/jquery-file-upload/js/jquery.iframe-transport.js"></script>
     <script src="dist/assets/jquery-file-upload/js/jquery.fileupload.js"></script>
@@ -34,7 +35,6 @@
         <div class="col-md-8">
             <div class="container1">
                 <div>
-
                     <form method="post" action="server/form_process.php">
 
                         <!-- This area will show the uploaded files -->
@@ -141,9 +141,6 @@
         }
     });
 </script>
-
-
-
 
 </body>
 </html>
