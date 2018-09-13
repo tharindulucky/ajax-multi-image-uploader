@@ -11,6 +11,13 @@
  * https://opensource.org/licenses/MIT
  */
 
+
+\Cloudinary::config(array(
+    "cloud_name" => "dajkablj5",
+    "api_key" => "963277874729395",
+    "api_secret" => "A9TVBKOy3TKdRgsWgXx13WMFgg8"
+));
+
 $ds = DIRECTORY_SEPARATOR;  //1
 $storeFolder = 'uploads';   //2
 if (!empty($_FILES)) {
@@ -29,7 +36,8 @@ if (!empty($_FILES)) {
         $targetFile =  $targetPath. $new_file_name;  //5
 
         if ($img = @imagecreatefromstring(file_get_contents($tempFile))) {
-            $upload_result = move_uploaded_file($tempFile,$targetFile); //6
+            //$upload_result = move_uploaded_file($tempFile,$targetFile); //6
+            \Cloudinary\Uploader::upload("D:\Workplace\Programer\PHP\www\sandbox_new\dddd-upload/ddd.jpg", array("crop"=>"limit", "tags"=>"samples", "width"=>100, "height"=>100));
             echo $new_file_name;
         }else{
             echo 'FAILED';
