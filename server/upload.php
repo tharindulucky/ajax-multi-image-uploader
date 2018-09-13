@@ -10,7 +10,7 @@
  * Licensed under the MIT license:
  * https://opensource.org/licenses/MIT
  */
-echo 'error';
+
 
 require 'autoload.php';
 
@@ -19,6 +19,9 @@ require 'autoload.php';
     "api_key" => "963277874729395",
     "api_secret" => "A9TVBKOy3TKdRgsWgXx13WMFgg8"
 ));
+
+echo 'error';
+
 //
 //$ds = DIRECTORY_SEPARATOR;  //1
 //$storeFolder = 'uploads';   //2
