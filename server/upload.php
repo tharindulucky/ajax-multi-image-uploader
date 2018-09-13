@@ -12,13 +12,13 @@
  */
 echo 'error';
 
-//require 'autoload.php';
-//
-//\Cloudinary::config(array(
-//    "cloud_name" => "dajkablj5",
-//    "api_key" => "963277874729395",
-//    "api_secret" => "A9TVBKOy3TKdRgsWgXx13WMFgg8"
-//));
+require 'autoload.php';
+
+\Cloudinary::config(array(
+    "cloud_name" => "dajkablj5",
+    "api_key" => "963277874729395",
+    "api_secret" => "A9TVBKOy3TKdRgsWgXx13WMFgg8"
+));
 //
 //$ds = DIRECTORY_SEPARATOR;  //1
 //$storeFolder = 'uploads';   //2
