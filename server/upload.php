@@ -28,7 +28,7 @@ $storeFolder = 'uploads';   //2
 if (!empty($_FILES)) {
     $tempFile = $_FILES['files']['tmp_name'];
     $file_name = $_FILES['files']['name'];
-    $ext = pathinfo($file_name, PATHINFO_EXTENSION);
+    //$ext = pathinfo($file_name, PATHINFO_EXTENSION);
 
     echo 'error';
 
