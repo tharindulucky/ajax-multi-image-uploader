@@ -20,16 +20,18 @@ require 'autoload.php';
     "api_secret" => "A9TVBKOy3TKdRgsWgXx13WMFgg8"
 ));
 
-echo 'error';
 
-//
-//$ds = DIRECTORY_SEPARATOR;  //1
-//$storeFolder = 'uploads';   //2
-//if (!empty($_FILES)) {
-//    $tempFile = $_FILES['files']['tmp_name'];
-//    $file_name = $_FILES['files']['name'];
-//    $ext = pathinfo($file_name, PATHINFO_EXTENSION);
-//
+
+
+$ds = DIRECTORY_SEPARATOR;  //1
+$storeFolder = 'uploads';   //2
+if (!empty($_FILES)) {
+    $tempFile = $_FILES['files']['tmp_name'];
+    $file_name = $_FILES['files']['name'];
+    $ext = pathinfo($file_name, PATHINFO_EXTENSION);
+
+    echo 'error';
+
 //    if(filesize($tempFile) > 5000000){
 //        echo 'FAILED';
 //        die();
@@ -47,7 +49,7 @@ echo 'error';
 //        }else{
 //            echo 'FAILED';
 //        }
-//    }else{
-//        echo 'FAILED';
-//    }
-//}
+    }else{
+        echo 'FAILED';
+    }
+}
