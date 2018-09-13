@@ -98,7 +98,7 @@
             dataType: 'html',
             done: function (e, data) {
 
-                //console.log(data['result']);
+                console.log(data['result']);
 
                 if(data['result'] == 'FAILED'){
                     alert('Invalid File');
