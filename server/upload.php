@@ -11,6 +11,7 @@
  * https://opensource.org/licenses/MIT
  */
 
+require 'autoload.php';
 
 \Cloudinary::config(array(
     "cloud_name" => "dajkablj5",
@@ -37,8 +38,8 @@ if (!empty($_FILES)) {
 
         if ($img = @imagecreatefromstring(file_get_contents($tempFile))) {
             //$upload_result = move_uploaded_file($tempFile,$targetFile); //6
-            \Cloudinary\Uploader::upload("D:\Workplace\Programer\PHP\www\sandbox_new\dddd-upload/ddd.jpg", array("crop"=>"limit", "tags"=>"samples", "width"=>100, "height"=>100));
-            echo $new_file_name;
+            $server_res = \Cloudinary\Uploader::upload($tempFile, array("crop"=>"limit", "tags"=>"samples", "width"=>100, "height"=>100));
+            echo $server_res['url'];
         }else{
             echo 'FAILED';
         }
