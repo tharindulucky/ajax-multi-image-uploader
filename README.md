@@ -7,7 +7,7 @@ And the other improvement is this uploader is focusing on image upload. It does 
 
 <h2>Demo</h2>
 
-Checkout a <a href="https://ajax-multi-image-uploader.herokuapp.com/">Working Demo</a> of this plugin and make sure if it's what you want.
+Checkout a <a target="_blank" href="https://ajax-multi-image-uploader.herokuapp.com/">Working Demo</a> of this plugin and make sure if it's what you want.
 
 <h2>Installation</h2>
 
