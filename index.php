@@ -98,13 +98,17 @@
             dataType: 'html',
             done: function (e, data) {
 
-                $('#uploaded_file_name').val(data['result']);
-                $('#uploaded_images').append('<div class="uploaded_image"> <input type="text" value="'+data['result']+'" name="uploaded_image_name[]" id="uploaded_image_name" hidden> <img src="server/uploads/'+data['result']+'" /> <a href="#" class="img_rmv btn btn-danger"><i class="fa fa-times-circle" style="font-size:48px;color:red"></i></a> </div>');
-
-                if($('.uploaded_image').length >= max_uploads){
-                    $('#select_file').hide();
+                if(data['result'] == 'FAILED'){
+                    alert('Invalid File');
                 }else{
-                    $('#select_file').show();
+                    $('#uploaded_file_name').val(data['result']);
+                    $('#uploaded_images').append('<div class="uploaded_image"> <input type="text" value="'+data['result']+'" name="uploaded_image_name[]" id="uploaded_image_name" hidden> <img src="server/uploads/'+data['result']+'" /> <a href="#" class="img_rmv btn btn-danger"><i class="fa fa-times-circle" style="font-size:48px;color:red"></i></a> </div>');
+
+                    if($('.uploaded_image').length >= max_uploads){
+                        $('#select_file').hide();
+                    }else{
+                        $('#select_file').show();
+                    }
                 }
 
                 $('#progress .progress-bar').css(
