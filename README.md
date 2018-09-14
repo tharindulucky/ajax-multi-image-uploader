@@ -7,7 +7,7 @@ And the other improvement is this uploader is focusing on image upload. It does 
 
 <h2>How it looks</h2>
 
-<a href"https://ajax-multi-image-uploader.herokuapp.com/"><img src="https://user-images.githubusercontent.com/15250118/45502231-15e8dc00-b7a1-11e8-938f-b240fc301025.png"></a>
+<a href="https://ajax-multi-image-uploader.herokuapp.com/"><img src="https://user-images.githubusercontent.com/15250118/45502231-15e8dc00-b7a1-11e8-938f-b240fc301025.png" style="width:82px; height:86px" title="White flower" alt="Flower"></a>
 
 <h2>Demo</h2>
 
