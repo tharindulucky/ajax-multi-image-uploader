@@ -37,9 +37,7 @@
             <h2>
                 <a class="github-button" href="https://github.com/tharindulucky/ajax-multi-image-uploader/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download ntkme/github-buttons on GitHub">Download</a>
                 <a class="github-button" href="https://github.com/tharindulucky/ajax-multi-image-uploader/fork" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
-                <!-- Place this tag where you want the button to render. -->
                 <a class="github-button" href="https://github.com/tharindulucky/ajax-multi-image-uploader" data-icon="octicon-star" data-size="large" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
-                <!-- Place this tag where you want the button to render. -->
                 <a class="github-button" href="https://github.com/tharindulucky/ajax-multi-image-uploader/subscription" data-icon="octicon-eye" data-size="large" data-show-count="true" aria-label="Watch ntkme/github-buttons on GitHub">Watch</a>
                 <a class="github-button" href="https://github.com/tharindulucky" data-size="large" aria-label="Follow @tharindulucky on GitHub">Follow @tharindulucky</a>
             </h2>
